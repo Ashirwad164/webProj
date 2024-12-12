@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Uber request-a-ride form
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            .title{
+                font-family: Roboto;
+                font-size: 30px;
+                margin-bottom: 14px;
+            }
+            .pickup{
+                font-family: Roboto;
+                border: none;
+                background-color: rgb(238, 230, 230);
+                display: block;
+                padding-left: 12px;
+                padding-right: 130px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                margin-bottom: 5px;
+            }
+            .dest{
+                font-family: Roboto;
+                border: none;
+                background-color: rgb(238, 230, 230);
+                display: block;
+                padding-left: 12px;
+                padding-right: 130px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                margin-bottom: 20px;
+            }
+            .uber-button{
+                background-color: black;
+                color: white;
+                width: 100px;
+                height: 35px;
+                border: none;
+                cursor: pointer;
+                margin-right: 8px;
+                transition: opacity 0.2s;
+                vertical-align: middle;
+            }
+            .uber-button:hover{
+                opacity: 0.7;
+            }
+            .uber-button:active{
+                opacity: 0.3;
+            }
+            .later{
+                font-family: Roboto;
+                height: 35px;
+                width: 130px;
+                border: none;
+                vertical-align: middle;
+                cursor: pointer;
+                background-color: rgb(238, 230, 230);
+                transition: background-color 0.2s, color 0.2s, opacity 0.2s;
+            }
+            .later:hover{
+                background-color: black;
+                color: rgb(238, 230, 230);
+            }
+            .later:active{
+                opacity: 0.5;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="title">
+            Request a ride now
+        </p>
+        <input class="pickup" type="text" placeholder="Enter pickup location">
+        <input class="dest" type="text" placeholder="Enter destination">
+        <button class="uber-button">
+            Request now
+        </button>
+        <button class="later">
+            Schedule for later
+        </button>
+    </body>
+</html>

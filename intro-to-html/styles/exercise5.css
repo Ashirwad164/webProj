@@ -1,0 +1,16 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.model{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Montserrat;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.sub{
+    font-size: 25px;
+    font-family: Montserrat;
+    text-align: center;
+}
